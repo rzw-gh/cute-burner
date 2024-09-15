@@ -52,7 +52,7 @@ video = Video(media_path, font_path, fonts_dir, base_path=base_path, show_log=Tr
     .remove_subtitles()  # removes all soft subtitles from media
     .watermark(watermark="watermark text", position="bottom_left", font_size=16, timing=15)  # watermarks at position bottom left for first 15 seconds
     .encode(resolution="480", color_depth="10bit", codec="h265")  # encode at 480 resolution, 10bit color depth and h265 codec
-    .hardcode_subtitle(media_path)  # harsub test.ass
+    .hardcode_subtitle(media_path)  # hardsub test.ass
     .change_title("test2.mkv")  # change media file name
     .execute()
 )
