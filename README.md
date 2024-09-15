@@ -17,7 +17,7 @@ here's list of things we can do with script:
 Make sure you have the following installed on your system:
 
 - Python 3.x
-- ffmpeg (you can find tutorial for installing ffmpeg on internet. note after installing, ffmpeg should be executable through your terminal)
+- ffmpeg (you can find tutorials on installing ffmpeg on internet. note after installing, ffmpeg should be executable through your terminal)
 
 ## Installation
 
