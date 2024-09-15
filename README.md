@@ -28,8 +28,9 @@ Follow these steps to set up the project locally.
 after clonning this repo head over to cute_burner folder and use `pip install -r requirements.txt` to install all required packages for python.
 
 ### 2. Configuration
-## 1.edit `core/config.py` as you need
-## 2.put your videos inside `assets/media`
+1.edit `core/config.py` as you need
+
+2.put your videos inside `assets/media`
 
 # 3. Examples
 ### 1.Video
