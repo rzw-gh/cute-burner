@@ -78,6 +78,7 @@ subtitle = Subtitle(media_path, base_path, font_path)
     .extract_subtitle()  # extracts soft subs if exists from media
     .remove_words(words_to_remove_from_subtitle)  # removes words from subtitle dialogues
     .customize_subtitle(*copy_right)  # adds your copy right to start, middle and end of video
+    .time_shift(-0.5)  # backwards dialogues 0.5 seconds
     .change_title("test.ass")  # change subtitle file name
 )
 ```
