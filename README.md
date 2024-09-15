@@ -1,11 +1,11 @@
 # Cute Burner
 
-This is a Video Encoder/Embeder script built using Python and the FFMPEG library.
+This is a Video Encoder/Embeder script built using Python and FFMPEG library.
 
 ## Usage
 
 this script developed mostly to enhance and automate what FFMPEG library can do with the power of Python. 
-here's list of things we can do with script. we'll see an real example for all these later:
+here's list of things we can do with script:
 - Encoding videos (h265 or av1 codecs, 10bit or 8bit color depths, converting resolutions 480, 720, 1080)
 - Burning subtitle onto videos (HardSub)
 - Extracting/Removing soft subtitle from videos
